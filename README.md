@@ -29,6 +29,8 @@ stehen, sonst bricht der Bau ab.
   automatisch um 7:30 per LaunchAgent
 - Filtert nach deinem Mandat: Wunschrollen, Ausschlussrollen, fremde
   Fachgebiete — alles Konfiguration, nichts davon steht im Code
+- Zählt im Volltext, wie oft dein Fachgebiet vorkommt; eine allgemein
+  betitelte Stelle zählt nur, wenn die Anzeige das Thema wirklich trägt
 - Wirft vorher raus: Personaldienstleister, Firmen aus deinem Tracker und
   jede Anzeige, die ein früherer Lauf schon gesehen hat
 - Rechnet die Luftlinie zu deinem Wohnort und liest den Anzeigentext darauf,
@@ -41,6 +43,14 @@ stehen, sonst bricht der Bau ab.
 
 - Recherchiert die Firma und schreibt eine Fit-Analyse:
   Anforderung ↔ dein Beleg ↔ Stärke, Zeile für Zeile
+- Zieht die Anforderungen **wörtlich** aus der Anzeige — mit deren eigenen
+  Begriffen, nicht umformuliert. Dadurch steht die Sprache der Anzeige
+  anschließend in Anschreiben und Lebenslauf: dieselben Schlagworte,
+  dieselben Rollenbezeichnungen, dieselben Werkzeugnamen
+- **Aber kein Keyword-Stuffing.** Ein Begriff, den deine Belege nicht decken,
+  kommt nicht hinein — er bleibt in der Analyse als offener Punkt stehen.
+  Das ist der Unterschied zwischen „für den Bewerbungsroboter optimiert" und
+  „im Gespräch verteidigbar"
 - Benennt Risiken, Bewerbungsweg und Frist
 - Vergibt eine Passung von 0 bis 100, die im Tracker landet
 
@@ -251,6 +261,13 @@ invents nothing. Every number in a cover letter must appear in
 
 - Researches the company and writes a fit analysis:
   requirement ↔ your evidence ↔ strength, line by line
+- Lifts the requirements **verbatim** from the posting — its own wording, not
+  a paraphrase. The posting's vocabulary therefore ends up in your letter and
+  CV: the same keywords, role names and tool names
+- **But no keyword stuffing.** A term your evidence does not cover never gets
+  in; it stays in the analysis as an open point. That is the difference
+  between "optimised for the applicant-tracking system" and "defensible in
+  the interview"
 - Names the risks, the application route and the deadline
 - Scores the fit from 0 to 100, which lands in the tracker
 
