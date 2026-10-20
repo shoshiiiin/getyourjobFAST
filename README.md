@@ -51,6 +51,35 @@ stehen, sonst bricht der Bau ab.
   kommt nicht hinein — er bleibt in der Analyse als offener Punkt stehen.
   Das ist der Unterschied zwischen „für den Bewerbungsroboter optimiert" und
   „im Gespräch verteidigbar"
+
+**ATS-Abgleich**
+
+Viele Firmen lassen Bewerbungen zuerst durch ein Applicant Tracking System
+laufen, das auf die Begriffe der Anzeige hin vergleicht. Nach jedem Bau sagt
+dir eine Zeile, wie es darum steht:
+
+```
+ATS: 71 % der Anzeigenbegriffe in den Unterlagen, 2 belegte Lücke(n)
+```
+
+Den ganzen Abgleich zeigt:
+
+```bash
+tools/.venv/bin/python tools/ats.py stellen/<ordner>
+```
+
+Er teilt die Begriffe der Anzeige in drei Gruppen:
+
+| Gruppe | Bedeutung |
+|---|---|
+| **in deinen Unterlagen** | steht schon drin |
+| **fehlt, obwohl belegt** | `belege.md` oder `master-cv.md` decken den Begriff — **hier lohnt eine Änderung** |
+| **fehlt und ist nicht belegt** | bleibt draußen, und das ist richtig so |
+
+Die dritte Gruppe ist der Punkt. Ein Keyword-Werkzeug, das dir sagt „bau noch
+‚SAP' ein", macht dich im Gespräch angreifbar. Dieses sagt dir, *welche*
+fehlenden Begriffe du ehrlich nachtragen kannst — und welche du bewusst
+stehen lässt.
 - Benennt Risiken, Bewerbungsweg und Frist
 - Vergibt eine Passung von 0 bis 100, die im Tracker landet
 
@@ -193,6 +222,7 @@ tools/launchd/install.sh
 | `profil/master-cv.md` | Die vollständige Laufbahn als Fließtext |
 | `profil/lebenslauf-allgemein.json` | Der Lebenslauf als Daten (ohne Identität) |
 | `tools/suchprofil.json` | Suchbegriffe für die Portale |
+| `tools/ats.py` | Begriffsabgleich Anzeige ↔ Unterlagen ↔ Belege |
 
 ### Umgebungsvariablen
 
@@ -268,6 +298,21 @@ invents nothing. Every number in a cover letter must appear in
   in; it stays in the analysis as an open point. That is the difference
   between "optimised for the applicant-tracking system" and "defensible in
   the interview"
+
+**ATS check**
+
+Every build ends with a line telling you how many of the posting's terms made
+it into your documents. The full breakdown:
+
+```bash
+tools/.venv/bin/python tools/ats.py stellen/<folder>
+```
+
+It sorts the posting's terms into three groups: already in your documents ·
+**missing although your evidence covers it** (worth fixing) · missing and not
+covered (stays out, and rightly so). A keyword tool that tells you to "add
+SAP" makes you vulnerable in the interview. This one tells you which missing
+terms you can honestly add — and which to leave alone.
 - Names the risks, the application route and the deadline
 - Scores the fit from 0 to 100, which lands in the tracker
 

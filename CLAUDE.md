@@ -68,10 +68,24 @@ abkürzen — der Skill führt ein Gespräch und schreibt daraus die Profildatei
    `Stellenanzeige.pdf`, trägt „Vorbereitet" in den Tracker ein. Bricht ab,
    wenn der Brief auf Seite 2 läuft oder ein PDF nicht frisch ist.
 
-5. **`mail-entwurf.md`** anlegen: Bewerbungsweg, Betreff, Versandtext, Anlagen.
+5. **ATS-Abgleich lesen.** Der Bau endet mit einer Zeile wie
+   „ATS: 71 % der Anzeigenbegriffe in den Unterlagen, 2 belegte Lücke(n)".
+   Gibt es belegte Lücken, den vollen Bericht ansehen:
+
+   ```bash
+   tools/.venv/bin/python tools/ats.py stellen/<ordner>
+   ```
+
+   Begriffe aus der Gruppe **„fehlt, obwohl belegt"** gehören in den Entwurf —
+   sie sind durch `belege.md` oder `master-cv.md` gedeckt. Danach neu bauen.
+   Begriffe aus **„fehlt und ist nicht belegt"** bleiben draußen. Niemals
+   einen Begriff einbauen, nur damit die Quote steigt: Das ist genau die
+   Selbsttäuschung, gegen die `belege.md` existiert.
+
+6. **`mail-entwurf.md`** anlegen: Bewerbungsweg, Betreff, Versandtext, Anlagen.
    Gleiche Stilregeln wie der Brief.
 
-6. **PDFs ansehen** (`pdftoppm -r 60 -png`), dann melden, was gebaut wurde.
+7. **PDFs ansehen** (`pdftoppm -r 60 -png`), dann melden, was gebaut wurde.
 
 Englisch: `"sprache": "en"` nimmt `profil/lebenslauf-allgemein-en.json`.
 

@@ -25,6 +25,9 @@
         ▼
   Lebenslauf_<Name>_<Kürzel>.pdf   Anschreiben_<Name>_<Kürzel>.pdf
         │
+        │  tools/ats.py — Begriffe der Anzeige ↔ Unterlagen ↔ Belege
+        │  "71 % drin, 2 belegte Lücken"  →  Entwurf nachziehen, neu bauen
+        │
         │  tools/tracker.py
         ▼
   Bewerbungs-Tracker.xlsx  →  tools/nachweis.py  →  Nachweis-Eigenbemuehungen.xlsx
@@ -42,6 +45,7 @@
 | das PDF-Layout ändern | `tools/design.mjs` (Geometrie in mm) |
 | ein weiteres Portal anbinden | `tools/suche/quellen.py` |
 | die Gruppen im Bericht ändern | `tools/suche/bericht.py` |
+| die Begriffserkennung schärfen | `tools/ats.py` → `STOPP`, `ENDUNGEN` |
 
 ## Warum das so getrennt ist · Why the split
 

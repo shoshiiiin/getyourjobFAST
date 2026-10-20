@@ -19,6 +19,8 @@ entwurf.json (schreibt Claude nach analyse.md):
 
 Ergebnis im Ordner: anschreiben.json, lebenslauf.json, Anschreiben_…pdf,
 Lebenslauf_…pdf, Stellenanzeige.pdf und eine Zeile „Vorbereitet“ im Tracker.
+Zum Schluss meldet der Lauf, wie viele Begriffe der Anzeige in den Unterlagen
+stehen; den ganzen Abgleich zeigt tools/ats.py.
 Bricht ab, wenn der Brief über 230 Wörter hat, eine verbotene Wendung aus
 profil/stil.md enthält oder ein PDF nicht frisch geschrieben wurde.
 """
@@ -157,7 +159,8 @@ def bauen(ordner: Path, mit_tracker: bool = True) -> None:
         meldungen += [aus, f"Brief: {woerter(entwurf['brief'])} von {WORT_MAX} Wörtern"]
     if (ordner / "stelle.md").exists():
         meldungen.append(rendern("render-stelle.mjs", ordner / "stelle.md", ordner / "Stellenanzeige.pdf"))
-    print("\n".join(meldungen))
+        meldungen.append(_ats_zeile(ordner))
+    print("\n".join(m for m in meldungen if m))
 
     if mit_tracker:
         sys.path.insert(0, str(HIER))
@@ -169,6 +172,15 @@ def bauen(ordner: Path, mit_tracker: bool = True) -> None:
             r = t.eintragen({**stelle_lesen(ordner), "status": "Vorbereitet"})
             t.speichern()
             print(f"Tracker Zeile {r}: {firma} (Vorbereitet)")
+
+
+def _ats_zeile(ordner: Path) -> str:
+    """Eine Zeile zum Begriffsabgleich. Scheitert er, bleibt der Bau davon unberührt."""
+    try:
+        import ats
+        return ats.kurzfassung(ats.fuer_ordner(ordner))
+    except Exception as e:  # noqa: BLE001 — ein Abgleich darf nie einen Bau verhindern
+        return f"ATS-Abgleich übersprungen ({e})"
 
 
 def main(argv: list[str]) -> None:
