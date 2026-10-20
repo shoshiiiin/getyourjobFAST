@@ -21,11 +21,82 @@ Nachweis der Eigenbemühungen per Knopfdruck ab.
 erfindet nichts. Jede Zahl in einem Anschreiben muss in `profil/belege.md`
 stehen, sonst bricht der Bau ab.
 
+### Was es kann
+
+**Suchen**
+
+- Werktäglicher Suchlauf über StepStone und LinkedIn (lokal und remote),
+  automatisch um 7:30 per LaunchAgent
+- Filtert nach deinem Mandat: Wunschrollen, Ausschlussrollen, fremde
+  Fachgebiete — alles Konfiguration, nichts davon steht im Code
+- Wirft vorher raus: Personaldienstleister, Firmen aus deinem Tracker und
+  jede Anzeige, die ein früherer Lauf schon gesehen hat
+- Rechnet die Luftlinie zu deinem Wohnort und liest den Anzeigentext darauf,
+  ob Home-Office wirklich zugesagt wird oder nur im Portalfilter steht
+- Gruppiert nach Sicherheit der Angabe: zugesagtes Home-Office · im Umkreis ·
+  „remote" nur laut Filter · Ort unklar
+- Optionale KI-Vorsortierung der Treffer
+
+**Analysieren**
+
+- Recherchiert die Firma und schreibt eine Fit-Analyse:
+  Anforderung ↔ dein Beleg ↔ Stärke, Zeile für Zeile
+- Benennt Risiken, Bewerbungsweg und Frist
+- Vergibt eine Passung von 0 bis 100, die im Tracker landet
+
+**Schreiben**
+
+- Anschreiben nach deinen eigenen Stilregeln, höchstens 230 Wörter
+- Lebenslauf je Stelle zugeschnitten: Positionierung, Kernkompetenzen und
+  welche Bullets überhaupt auftauchen
+- Beides als PDF in einem eigenen Layout, mit Foto
+- Deutsch oder Englisch
+- Mail-Entwurf mit Betreff, Versandtext und Anlagenliste
+
+**Prüfen — hier wird es ernst**
+
+Der Bau bricht ab, statt etwas Schlechtes zu liefern:
+
+- wenn der Brief zu lang ist oder auf Seite 2 läuft
+- bei verbotenen Wendungen („Sehr geehrte Damen und Herren", „hiermit bewerbe
+  ich mich", „das müsste ich mir noch erarbeiten")
+- wenn ein vertrauliches Wort auftaucht — etwa ein Kundenname unter NDA
+- und nichts kommt ins Dokument, was nicht in deinen Belegen steht
+
+**Nachhalten**
+
+- Tracker als Excel, Status von „Vorbereitet" bis „Angebot"
+- Nachweis der Eigenbemühungen für die Agentur für Arbeit auf Knopfdruck,
+  ohne Daten und interne Notizen
+- Gesprächsvorbereitung als PDF
+
+**Was es bewusst nicht tut**
+
+- **Es verschickt nichts.** Nie. Auf „Senden" drückst du.
+- **Es erfindet nichts.** Keine Zahl ohne Beleg.
+- **Es lädt nichts hoch.** Alles läuft lokal. Kein Konto, kein Abo, keine
+  Daten auf fremden Servern.
+
+### Womit ich es selbst benutzt habe
+
+Ich habe das System für meine eigene Jobsuche gebaut. Stand Oktober 2026:
+
+| | |
+|---|---|
+| Bewerbungen versendet | **13** |
+| daraus Gespräche | **3** |
+| davon noch laufend | **2** — die Entscheidung steht aus |
+
+Das sind meine Zahlen, kein Versprechen. Was ein Anschreiben taugt, hängt an
+den Belegen, die du hineingibst, nicht am Werkzeug. Was das System leistet:
+Jede Bewerbung ist einzeln auf die Anzeige zugeschnitten statt dreißigmal
+dieselbe — und das in Minuten statt in Stunden.
+
 ### In fünf Minuten startklar
 
 ```bash
 git clone https://github.com/shoshiiiin/getyourjobFAST.git
-cd getyourjob
+cd getyourjobFAST
 ```
 
 Dann in Claude Code:
@@ -161,11 +232,81 @@ books.
 invents nothing. Every number in a cover letter must appear in
 `profil/belege.md`, or the build refuses to run.
 
+### What it does
+
+**Finding**
+
+- A weekday search across StepStone and LinkedIn (local and remote),
+  scheduled at 07:30
+- Filters by your mandate: target roles, excluded roles, unrelated fields —
+  all configuration, none of it in the code
+- Drops staffing agencies, companies already in your tracker, and every
+  posting an earlier run has seen
+- Measures the straight-line distance to your city and reads the posting text
+  to tell a real remote promise from a portal checkbox
+- Groups by how certain the location is: promised remote · within range ·
+  "remote" per filter only · unclear
+
+**Analysing**
+
+- Researches the company and writes a fit analysis:
+  requirement ↔ your evidence ↔ strength, line by line
+- Names the risks, the application route and the deadline
+- Scores the fit from 0 to 100, which lands in the tracker
+
+**Writing**
+
+- A cover letter following your own style rules, 230 words maximum
+- A CV cut to each role: positioning, core competencies, and which bullets
+  appear at all
+- Both as PDFs in their own layout, with a photo
+- German or English
+- A draft email with subject, body and attachment list
+
+**Refusing**
+
+The build stops rather than shipping something weak:
+
+- if the letter runs long or spills onto page two
+- on banned phrases (the German equivalents of "To whom it may concern" and
+  "I hereby apply")
+- if a confidential word appears — a client under NDA, say
+- and nothing reaches a document that is not in your evidence file
+
+**Keeping track**
+
+- An Excel tracker, status from "prepared" to "offer"
+- A one-click record of applications for the German employment agency,
+  stripped of dates and internal notes
+- Interview preparation as a PDF
+
+**What it deliberately does not do**
+
+- **It sends nothing.** Ever. You press send.
+- **It invents nothing.** No number without evidence.
+- **It uploads nothing.** Everything runs locally. No account, no
+  subscription, no data on someone else's servers.
+
+### How it has gone for me
+
+I built this for my own job search. As of October 2026:
+
+| | |
+|---|---|
+| Applications sent | **13** |
+| Interviews from those | **3** |
+| Still open | **2** — decision pending |
+
+Those are my numbers, not a promise. How good a letter is depends on the
+evidence you put in, not on the tool. What the system does give you: every
+application is cut to that one posting instead of the same text thirty times
+over — in minutes rather than hours.
+
 ### Up and running in five minutes
 
 ```bash
 git clone https://github.com/shoshiiiin/getyourjobFAST.git
-cd getyourjob
+cd getyourjobFAST
 ```
 
 Then in Claude Code:
