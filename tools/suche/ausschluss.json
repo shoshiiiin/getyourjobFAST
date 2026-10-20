@@ -1,0 +1,11 @@
+{
+  "_hinweis": "Firmen, die die Suche nie vorschlägt. Tracker-Firmen kommen automatisch dazu. 'firmen' ist deine eigene Sperrliste.",
+  "personaldienstleister": [
+    "Hays", "Randstad", "Michael Page", "FERCHAU", "Akkodis", "Amadeus Fire", "Robert Half", "Gulp",
+    "Etengo", "SOLCOM", "Computer Futures", "Krila", "WhyBrilliant", "Visser & Van Baars", "Jobgether",
+    "Die Tech Recruiter", "Ratbacher", "Instaffo", "Mixture of Experts", "Pat & Patachon", "Hapeko",
+    "Adecco", "Manpower", "Orizon", "Brunel", "Modis", "Experis", "Darwin Recruitment", "Huxley",
+    "Gi Group", "DIS AG", "Avanti", "Jobot", "Crossover", "Turing"
+  ],
+  "firmen": []
+}

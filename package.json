@@ -1,0 +1,13 @@
+{
+  "name": "getyourjob",
+  "private": true,
+  "type": "module",
+  "description": "Stellensuche, Lebensläufe und Anschreiben als Werkzeugkasten · Job search, CVs and cover letters as a toolkit",
+  "license": "MIT",
+  "scripts": {
+    "test": "node --test tools/jev/lib.test.mjs"
+  },
+  "dependencies": {
+    "jspdf": "4.2.1"
+  }
+}

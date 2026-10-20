@@ -1,0 +1,18 @@
+{
+  "_hinweis": "Welche Stellen zählen. Reguläre Ausdrücke, Groß-/Kleinschreibung egal. Das Beispiel sucht Projekt- und Prozessmanagement rund um Digitalisierung — ersetze es durch dein Mandat. | Which postings count. Regular expressions, case-insensitive.",
+
+  "_titel_ausschluss": "Titel, die sofort rausfallen.",
+  "titel_ausschluss": "(werkstudent|working student|\\bintern\\b|internship|praktik|trainee|ausbildung|azubi|duales|thesis|abschlussarbeit|freelance|freiberuf|minijob|teilzeit|part.?time|student|praktikant)",
+
+  "_titel_kern": "Titel, die ohne weitere Prüfung passen.",
+  "titel_kern": "(projektmanag|projektleit|prozessmanag|prozessoptimier|digitalisierung|digital transformation|transformation|change manager|pmo|business analyst)",
+
+  "_titel_allgemein": "Titel, die nur zählen, wenn der Anzeigentext selbst zum Fach passt (siehe kern_wort).",
+  "titel_allgemein": "(consultant|berater|manager|koordinator|referent|specialist|spezialist|analyst)",
+
+  "_fach_ausschluss": "Fachgebiete, die trotz passendem Titel nicht zum Mandat gehören.",
+  "fach_ausschluss": "(audit|revision|fraud|cyber|security|safety|embedded|hardware|\\bgmp\\b|facility|steuerberat|immobilien|real estate|agrar|\\bsps\\b|\\bplc\\b|devsecops|professur|pflege|arzt)",
+
+  "_kern_wort": "Wie oft das Fach im Anzeigentext vorkommt. Ab 2 Treffern zählt eine allgemeine Rolle.",
+  "kern_wort": "\\b(projektmanagement|prozess\\w*|digitalisierung|transformation|change|agil\\w*|scrum|kanban)\\b"
+}

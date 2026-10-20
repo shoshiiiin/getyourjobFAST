@@ -1,0 +1,38 @@
+{
+  "_hinweis": "Das Format, das tools/bewerbung.py erwartet. | The format tools/bewerbung.py expects.",
+  "kuerzel": "MUSTER",
+  "sprache": "de",
+  "ohne_anschreiben": false,
+  "brief": {
+    "empfaenger": ["Muster Handels GmbH", "Frau Dr. Meyer", "Musterstraße 1", "50667 Köln"],
+    "betreff": "Bewerbung als Projektmanager Digitalisierung",
+    "anrede": "Sehr geehrte Frau Dr. Meyer,",
+    "absaetze": [
+      "dass Ihre Prozesse zum Teil noch auf Papier laufen, schreiben Sie offen in die Anzeige. Genau an dieser Stelle habe ich die letzten fünf Jahre verbracht: bei einem Händler mit sechs Standorten, gewachsenem ERP und denselben Papierwegen.",
+      "Dort habe ich ein Dokumentenmanagementsystem über alle sechs Standorte eingeführt, Budget 400.000 Euro, termin- und budgetgerecht abgeschlossen. Danach ein CRM für 120 Anwenderinnen und Anwender, von der Auswahl bis zur Abnahme. Die Kernprozesse habe ich dabei erstmals in BPMN modelliert."
+    ],
+    "bullet_titel": "Was ich in den ersten Monaten übernehme:",
+    "bullets": [
+      "Aufnahme der Prozesse, die heute auf Papier laufen, mit den Fachbereichen",
+      "Ein Portfolio mit einheitlichem Statusbericht für die Geschäftsführung",
+      "Den ersten Rollout vollständig bis zur Abnahme"
+    ],
+    "schluss": "Über ein Gespräch freue ich mich. Ich kann kurzfristig anfangen.",
+    "gruss": "Mit freundlichen Grüßen"
+  },
+  "lebenslauf": {
+    "profil": [
+      "Projekt- und Prozessmanager mit acht Jahren in Digitalisierungsvorhaben mittelständischer Unternehmen. Führt Vorhaben bis 400.000 Euro über mehrere Standorte, von der Prozessaufnahme bis zur Anwenderschulung.",
+      "Verbindet Fachbereich und IT: nimmt Prozesse auf, modelliert sie in BPMN, schreibt Anforderungen und steuert Dienstleister bis zur Abnahme."
+    ],
+    "kernkompetenzen": [
+      {"titel": "Projektleitung", "inhalt": "Budget bis 400 k€ · Multi-Standort-Rollouts · Dienstleistersteuerung"},
+      {"titel": "Prozessmanagement", "inhalt": "Aufnahme & Modellierung (BPMN) · Optimierung · Kennzahlen"},
+      {"titel": "Anforderungen & IT", "inhalt": "Requirements Engineering · Lastenheft · Abnahmetests"},
+      {"titel": "Befähigung", "inhalt": "Anwenderschulungen · Workshops · Change-Begleitung"}
+    ],
+    "gruender": [0, 1, 2, 5],
+    "dozent": [0, 2, 3, 4],
+    "zertifikate": [0, 2]
+  }
+}

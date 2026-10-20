@@ -1,0 +1,28 @@
+# Geheimnisse · Secrets (die Variablen sind im README beschrieben)
+# Secrets — the variables are documented in the README
+.env*
+
+# Umgebungen · Environments
+tools/.venv/
+node_modules/
+__pycache__/
+
+# Persönliches und Gerendertes · Personal and generated
+*.pdf
+*.png
+*.ppm
+*.xlsx
+profil/anlagen/*
+!profil/anlagen/README.md
+*.bak
+.DS_Store
+
+# Vom Bau erzeugt · Produced by the build
+stellen/*/anschreiben.json
+stellen/*/lebenslauf.json
+
+# Laufzeitdaten · Runtime data
+tools/jev/hauptbuch.jsonl
+stellen/suchlaeufe/*.json
+stellen/suchlaeufe/*.md
+!stellen/suchlaeufe/.gitkeep

@@ -1,0 +1,114 @@
+{
+  "_hinweis": "Dein Lebenslauf als Daten. Name, Kontakt und Anschrift stehen NICHT hier, sondern in profil/person.json — bewerbung.py setzt sie beim Bauen ein. | Your CV as data. Identity lives in profil/person.json.",
+  "foto": "../../profil/anlagen/bewerbungsfoto.jpg",
+  "kenntnisse": [
+    "Englisch (fließend, B2)",
+    "Projektmanagement (IPMA Level C)",
+    "BPMN 2.0",
+    "Microsoft 365 & Power Platform"
+  ],
+  "interessen": [
+    "Prozessfotografie",
+    "Radfahren",
+    "Kochen",
+    "Schach"
+  ],
+  "profil": [
+    "Projekt- und Prozessmanager mit acht Jahren in Digitalisierungsvorhaben mittelständischer Unternehmen. Führt Vorhaben bis 400.000 Euro über mehrere Standorte, von der Prozessaufnahme bis zur Anwenderschulung.",
+    "Verbindet Fachbereich und IT: nimmt Prozesse auf, modelliert sie in BPMN, schreibt Anforderungen und steuert Dienstleister bis zur Abnahme."
+  ],
+  "kernkompetenzen": [
+    {
+      "titel": "Projektleitung",
+      "inhalt": "Budget bis 400 k€ · Multi-Standort-Rollouts · Dienstleistersteuerung"
+    },
+    {
+      "titel": "Prozessmanagement",
+      "inhalt": "Aufnahme & Modellierung (BPMN) · Optimierung · Kennzahlen"
+    },
+    {
+      "titel": "Anforderungen & IT",
+      "inhalt": "Requirements Engineering · Lastenheft · Abnahmetests"
+    },
+    {
+      "titel": "Befähigung",
+      "inhalt": "Anwenderschulungen · Workshops · Change-Begleitung"
+    }
+  ],
+  "erfahrungen": [
+    {
+      "zeitraum": "Seit 01/2021",
+      "rolle": "Projektmanager Digitalisierung",
+      "firma": "Muster Handels GmbH, Köln",
+      "untertitel": "Digitalisierungsvorhaben über sechs Standorte",
+      "bullets": [
+        "Leitung der Einführung eines Dokumentenmanagementsystems über sechs Standorte, Budget 400.000 €, termin- und budgetgerecht abgeschlossen",
+        "Einführung eines CRM für 120 Anwenderinnen und Anwender, von der Auswahl über die Migration bis zur Abnahme",
+        "Aufnahme und Modellierung der Kernprozesse in BPMN als Grundlage für alle Folgeprojekte",
+        "Konzeption und Durchführung von Anwenderschulungen an allen Standorten"
+      ]
+    },
+    {
+      "zeitraum": "03/2018 – 12/2020",
+      "rolle": "Prozessmanager",
+      "firma": "Beispiel Logistik AG, Bonn",
+      "untertitel": "Prozessaufnahme und -optimierung im Auftragsdurchlauf",
+      "bullets": [
+        "Aufnahme und Neuschnitt des Order-to-Cash-Prozesses, Durchlaufzeit um ein Drittel gesenkt",
+        "Moderation von Prozessworkshops mit Vertrieb, Lager und Buchhaltung",
+        "Aufbau einer Prozessdokumentation, die bis heute als Einarbeitungsgrundlage dient",
+        "Begleitung der internen Zertifizierung nach ISO 9001"
+      ]
+    },
+    {
+      "zeitraum": "08/2015 – 02/2018",
+      "rolle": "Teamleiter Kundenservice",
+      "firma": "Muster Service GmbH, Köln",
+      "untertitel": "Fachliche Führung von neun Personen",
+      "bullets": [
+        "Fachliche Führung eines Teams von neun Personen",
+        "Einführung eines Schichtmodells, Erreichbarkeit von 82 % auf 95 % gesteigert",
+        "Einarbeitung und Entwicklung neuer Teammitglieder"
+      ]
+    },
+    {
+      "zeitraum": "09/2012 – 07/2015",
+      "rolle": "Sachbearbeiter Auftragsabwicklung",
+      "firma": "Beispiel Handel GmbH, Bonn",
+      "untertitel": "Auftragsabwicklung und Reklamationsbearbeitung",
+      "bullets": [
+        "Auftragsabwicklung für Geschäftskunden",
+        "Bearbeitung von Reklamationen und Gutschriften"
+      ]
+    }
+  ],
+  "ausbildung": [
+    "09/2009 – 06/2012 · Ausbildung zum Kaufmann für Büromanagement, Beispiel Handel GmbH, Bonn",
+    "2017 · Weiterbildung Prozessmanagement, IHK Köln",
+    "2019 · Lean-Six-Sigma Green Belt",
+    "2021 · IPMA Level C (Certified Project Manager)",
+    "2023 · Professional Scrum Master I"
+  ],
+  "zertifikate": [
+    "IPMA Level C · Certified Project Manager",
+    "BPMN 2.0 · Requirements Engineering Foundation Level"
+  ],
+  "nameLines": [
+    "Alex",
+    "Beispiel"
+  ],
+  "kontakt": [
+    [
+      "+49 170 0000000",
+      "alex.beispiel@example.com"
+    ],
+    "www.example.com",
+    "linkedin: linkedin.com/in/alexbeispiel"
+  ],
+  "persoenlich": {
+    "Name": "Alex Beispiel",
+    "Anschrift": "Beispielweg 1\n50667, Köln",
+    "Geburtsdatum": "01.01.1990",
+    "Verfügbar ab": "sofort"
+  }
+}

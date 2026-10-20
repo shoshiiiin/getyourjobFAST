@@ -1,0 +1,101 @@
+{
+  "_hinweis": "Your CV in English. Identity lives in profil/person.json.",
+  "foto": "anlagen/bewerbungsfoto.jpg",
+  "kenntnisse": [
+    "German (native)",
+    "English (fluent, B2)",
+    "Project management (IPMA Level C)",
+    "BPMN 2.0"
+  ],
+  "interessen": [
+    "Process photography",
+    "Cycling",
+    "Cooking",
+    "Chess"
+  ],
+  "profil": [
+    "Project and process manager with eight years in digitalisation projects at mid-sized companies. Works between business units and IT: mapping processes, writing requirements, running rollouts and training the people who end up using the result.",
+    "Runs projects with budgets up to EUR 400,000 across multiple sites. Combines classic project management with agile formats and delivers even where business and IT initially talk past each other."
+  ],
+  "kernkompetenzen": [
+    {
+      "titel": "Project delivery",
+      "inhalt": "Classic & agile · Budgets to EUR 400k · Multi-site rollouts · Steering committees"
+    },
+    {
+      "titel": "Process management",
+      "inhalt": "Mapping & modelling (BPMN) · Optimisation · Lean · Metrics"
+    },
+    {
+      "titel": "Requirements & IT",
+      "inhalt": "Requirements engineering · Specifications · Acceptance testing · IT interface"
+    },
+    {
+      "titel": "Enablement",
+      "inhalt": "Workshops · Training · Change support · Documentation"
+    }
+  ],
+  "erfahrungen": [
+    {
+      "zeitraum": "Since 01/2021",
+      "rolle": "Project Manager, Digitalisation",
+      "firma": "Muster Handels GmbH, Köln",
+      "untertitel": "Digitalisation programme across six sites",
+      "bullets": [
+        "Led the rollout of a document management system across six sites, EUR 400,000 budget, delivered on time and on budget",
+        "Introduced a CRM for 120 users, from selection through migration to sign-off",
+        "Mapped and modelled the core processes in BPMN as the basis for all follow-up projects",
+        "Built a project portfolio with a single status report for the management board",
+        "Managed three external suppliers including contracts and acceptance",
+        "Designed and delivered user training at every site",
+        "Introduced a metric set that made project progress legible to business units"
+      ]
+    },
+    {
+      "zeitraum": "03/2018 – 12/2020",
+      "rolle": "Process Manager",
+      "firma": "Beispiel Logistik AG, Bonn",
+      "untertitel": "Process mapping and optimisation in order handling",
+      "bullets": [
+        "Remapped the order-to-cash process, cutting lead time by a third",
+        "Introduced a ticketing system for business queries, halving follow-up questions",
+        "Facilitated process workshops with sales, warehouse and accounting",
+        "Built process documentation still used for onboarding today",
+        "Supported internal ISO 9001 certification"
+      ]
+    },
+    {
+      "zeitraum": "08/2015 – 02/2018",
+      "rolle": "Team Lead, Customer Service",
+      "firma": "Muster Service GmbH, Köln",
+      "untertitel": "Line management for nine people",
+      "bullets": [
+        "Line management for a team of nine",
+        "Introduced a shift model, raising availability from 82% to 95%",
+        "Onboarded and developed new team members"
+      ]
+    },
+    {
+      "zeitraum": "09/2012 – 07/2015",
+      "rolle": "Order Processing Clerk",
+      "firma": "Beispiel Handel GmbH, Bonn",
+      "untertitel": "Order handling and complaints",
+      "bullets": [
+        "Order handling for business customers",
+        "Handled complaints and credit notes"
+      ]
+    }
+  ],
+  "ausbildung": [
+    "09/2009 – 06/2012 · Apprenticeship in Office Management, Beispiel Handel GmbH, Bonn",
+    "2017 · Process Management, IHK Cologne",
+    "2019 · Lean Six Sigma Green Belt",
+    "2021 · IPMA Level C (Certified Project Manager)",
+    "2023 · Professional Scrum Master I"
+  ],
+  "zertifikate": [
+    "IPMA Level C · Certified Project Manager",
+    "Lean Six Sigma Green Belt · Professional Scrum Master I",
+    "BPMN 2.0 · Requirements Engineering Foundation Level"
+  ]
+}

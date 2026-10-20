@@ -1,0 +1,40 @@
+{
+  "foto": "../../profil/anlagen/bewerbungsfoto.jpg",
+  "nameLines": [
+    "Alex",
+    "Beispiel"
+  ],
+  "kontakt": [
+    [
+      "+49 170 0000000",
+      "alex.beispiel@example.com"
+    ],
+    "www.example.com",
+    "linkedin: linkedin.com/in/alexbeispiel"
+  ],
+  "ort": "Köln",
+  "datum": "20. Oktober 2026",
+  "signatur": "Alex Beispiel",
+  "gruss": "Mit freundlichen Grüßen",
+  "empfaenger": [
+    "Muster Handels GmbH",
+    "Frau Dr. Meyer",
+    "Musterstraße 1",
+    "50667 Köln"
+  ],
+  "betreff": "Bewerbung als Projektmanager Digitalisierung",
+  "anrede": "Sehr geehrte Frau Dr. Meyer,",
+  "absaetze": [
+    "dass Ihre Prozesse zum Teil noch auf Papier laufen, schreiben Sie offen in die Anzeige. Genau an dieser Stelle habe ich die letzten fünf Jahre verbracht: bei einem Händler mit sechs Standorten, gewachsenem ERP und denselben Papierwegen.",
+    "Dort habe ich ein Dokumentenmanagementsystem über alle sechs Standorte eingeführt, Budget 400.000 Euro, termin- und budgetgerecht abgeschlossen. Danach ein CRM für 120 Anwenderinnen und Anwender, von der Auswahl bis zur Abnahme. Die Kernprozesse habe ich dabei erstmals in BPMN modelliert."
+  ],
+  "schluss": "Über ein Gespräch freue ich mich. Ich kann kurzfristig anfangen.",
+  "bulletBlock": {
+    "titel": "Was ich in den ersten Monaten übernehme:",
+    "punkte": [
+      "Aufnahme der Prozesse, die heute auf Papier laufen, mit den Fachbereichen",
+      "Ein Portfolio mit einheitlichem Statusbericht für die Geschäftsführung",
+      "Den ersten Rollout vollständig bis zur Abnahme"
+    ]
+  }
+}

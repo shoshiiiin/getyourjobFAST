@@ -1,0 +1,24 @@
+{
+  "_hinweis": "Suchbegriffe für tools/stellensuche.py. Beispielwerte — ersetze sie durch deine. | Search terms for the daily run. Example values, replace them.",
+  "suchbegriffe": [
+    "Projektmanager", "Projektmanagerin", "Project Manager",
+    "Prozessmanager", "Prozessmanagement", "Prozessoptimierung",
+    "Digitalisierung", "Digital Transformation", "Transformation Manager",
+    "Change Manager", "Business Analyst", "Requirements Engineer",
+    "PMO", "Projektleitung", "Teilprojektleitung",
+    "Organisationsentwicklung", "Prozessberater", "Consultant Prozesse",
+    "Operations Manager", "Business Process Manager",
+    "Agile Coach", "Scrum Master", "Product Owner",
+    "Projektkoordinator", "Projektsteuerung",
+    "Lean Manager", "Qualitätsmanagement Prozesse",
+    "Inhouse Consultant", "Referent Digitalisierung", "Prozessarchitekt"
+  ],
+  "stepstone_seiten": 1,
+  "linkedin_seiten": 2,
+  "orte": ["Köln", "Düsseldorf", "Bonn", "Leverkusen"],
+  "ausschluss": [
+    "Ausbildung", "Auszubildende", "Auszubildender", "Azubi",
+    "Werkstudent", "Werkstudentin", "Praktikum", "Praktikant",
+    "Praktikantin", "Trainee", "Duales Studium", "Minijob"
+  ]
+}

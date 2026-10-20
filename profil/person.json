@@ -1,0 +1,27 @@
+{
+  "_hinweis": "Die einzige Datei mit persönlichen Angaben. Alles hier ist frei erfunden — ersetze es durch deine Daten (/einfuehrung oder tools/einrichten.py). | The only file holding personal details. Everything here is fictional — replace it with your own.",
+  "vorname": "Alex",
+  "nachname": "Beispiel",
+  "kontakt": [
+    [
+      "+49 170 0000000",
+      "alex.beispiel@example.com"
+    ],
+    "www.example.com",
+    "linkedin: linkedin.com/in/alexbeispiel"
+  ],
+  "anschrift": "Beispielweg 1\n50667, Köln",
+  "geburtsdatum": "01.01.1990",
+  "verfuegbar_ab": "sofort",
+  "ort": "Köln",
+  "heimat": [
+    50.9375,
+    6.9603
+  ],
+  "umkreis_km": 30,
+  "_vertraulich": "Wörter, die in keinem Anschreiben und keinem Lebenslauf stehen dürfen — etwa Kundennamen unter NDA. bewerbung.py bricht ab, wenn eines auftaucht.",
+  "vertraulich": [],
+  "ort_linkedin": "Köln, Nordrhein-Westfalen, Deutschland",
+  "_wettbewerb": "Optional: Themen, bei denen eine Stelle zu nah an der eigenen Firma liegt (regulärer Ausdruck). Leer = Prüfung aus.",
+  "wettbewerb": ""
+}

@@ -1,0 +1,34 @@
+{
+  "_hinweis": "Was Jev über dich sieht. Englisch, weil Jev Englisch am besten liest. Ohne Name, Anschrift, Kontakt. Beispielwerte — ersetze sie durch deine. | What Jev sees about you. No name, address or contact details.",
+  "summary": "Project and process manager with eight years in digitalisation projects at mid-sized companies. Works between business units and IT: mapping processes, writing requirements, running rollouts, training the people who have to use the result.",
+  "experience": [
+    "Project manager for digitalisation (since 2021): led rollouts of a document management system and a CRM across six locations, budget responsibility up to 400k EUR",
+    "Process manager (2018-2021): mapped and reworked order-to-cash, cut lead time by a third",
+    "Earlier: team lead in customer service"
+  ],
+  "skills": [
+    "Project management (classic and agile), Scrum, Kanban",
+    "Process mapping and optimisation, BPMN, Lean",
+    "Requirements engineering, specifications, acceptance testing",
+    "Stakeholder management, workshops, training",
+    "Jira, Confluence, Microsoft 365, Power Platform basics"
+  ],
+  "languages": "German native, English B2",
+  "target_roles_first": [
+    "Project manager, project lead, PMO",
+    "Process manager, business process manager",
+    "Business analyst, requirements engineer",
+    "Inhouse consultant for digitalisation"
+  ],
+  "target_roles_maybe": [
+    "Agile coach, Scrum master",
+    "Operations manager with a process focus"
+  ],
+  "avoid": [
+    "Pure software development roles",
+    "Field sales, recruiting, staffing agencies",
+    "Working-student, trainee or apprenticeship postings"
+  ],
+  "location": "Prefers fully remote within Germany. Otherwise Cologne and its surroundings, then the Rhineland (Düsseldorf, Bonn). No relocation, no long commutes.",
+  "seniority": "Mid to senior individual contributor or team lead. Not junior, not director."
+}

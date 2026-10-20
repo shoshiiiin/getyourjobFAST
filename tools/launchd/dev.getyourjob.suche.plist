@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>Label</key>
+  <string>dev.getyourjob.suche</string>
+  <key>ProgramArguments</key>
+  <array>
+    <string>__WURZEL__/tools/.venv/bin/python</string>
+    <string>__WURZEL__/tools/stellensuche.py</string>
+  </array>
+  <key>WorkingDirectory</key>
+  <string>__WURZEL__</string>
+  <key>EnvironmentVariables</key>
+  <dict>
+    <key>PATH</key>
+    <string>/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin</string>
+  </dict>
+  <!-- Werktags 7:30. Schläft der Mac, holt launchd den Lauf beim Aufwachen nach. -->
+  <key>StartCalendarInterval</key>
+  <array>
+    <dict><key>Weekday</key><integer>1</integer><key>Hour</key><integer>7</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>2</integer><key>Hour</key><integer>7</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>3</integer><key>Hour</key><integer>7</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>4</integer><key>Hour</key><integer>7</integer><key>Minute</key><integer>30</integer></dict>
+    <dict><key>Weekday</key><integer>5</integer><key>Hour</key><integer>7</integer><key>Minute</key><integer>30</integer></dict>
+  </array>
+  <key>StandardOutPath</key>
+  <string>__HOME__/Library/Logs/getyourjob/suche.log</string>
+  <key>StandardErrorPath</key>
+  <string>__HOME__/Library/Logs/getyourjob/suche.log</string>
+  <key>ProcessType</key>
+  <string>Background</string>
+</dict>
+</plist>

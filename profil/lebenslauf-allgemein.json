@@ -1,0 +1,101 @@
+{
+  "_hinweis": "Dein Lebenslauf als Daten. Name, Kontakt und Anschrift stehen NICHT hier, sondern in profil/person.json — bewerbung.py setzt sie beim Bauen ein. | Your CV as data. Identity lives in profil/person.json.",
+  "foto": "anlagen/bewerbungsfoto.jpg",
+  "kenntnisse": [
+    "Englisch (fließend, B2)",
+    "Projektmanagement (IPMA Level C)",
+    "BPMN 2.0",
+    "Microsoft 365 & Power Platform"
+  ],
+  "interessen": [
+    "Prozessfotografie",
+    "Radfahren",
+    "Kochen",
+    "Schach"
+  ],
+  "profil": [
+    "Projekt- und Prozessmanager mit acht Jahren in Digitalisierungsvorhaben mittelständischer Unternehmen. Arbeitet zwischen Fachbereich und IT: Prozesse aufnehmen, Anforderungen schreiben, Rollouts steuern und die Menschen schulen, die am Ende damit arbeiten.",
+    "Führt Projekte bis 400.000 € Budget über mehrere Standorte. Verbindet klassisches Projektmanagement mit agilen Formaten und bringt Vorhaben auch dann ins Ziel, wenn Fachbereiche und IT zunächst aneinander vorbeireden."
+  ],
+  "kernkompetenzen": [
+    {
+      "titel": "Projektleitung",
+      "inhalt": "Klassisch & agil · Budget bis 400 k€ · Multi-Standort-Rollouts · Steuerungskreise"
+    },
+    {
+      "titel": "Prozessmanagement",
+      "inhalt": "Aufnahme & Modellierung (BPMN) · Optimierung · Lean · Kennzahlen"
+    },
+    {
+      "titel": "Anforderungen & IT",
+      "inhalt": "Requirements Engineering · Lastenheft · Abnahmetests · Schnittstelle zur IT"
+    },
+    {
+      "titel": "Befähigung",
+      "inhalt": "Workshops · Schulungen · Change-Begleitung · Dokumentation"
+    }
+  ],
+  "erfahrungen": [
+    {
+      "zeitraum": "Seit 01/2021",
+      "rolle": "Projektmanager Digitalisierung",
+      "firma": "Muster Handels GmbH, Köln",
+      "untertitel": "Digitalisierungsvorhaben über sechs Standorte",
+      "bullets": [
+        "Leitung der Einführung eines Dokumentenmanagementsystems über sechs Standorte, Budget 400.000 €, termin- und budgetgerecht abgeschlossen",
+        "Einführung eines CRM für 120 Anwenderinnen und Anwender, von der Auswahl über die Migration bis zur Abnahme",
+        "Aufnahme und Modellierung der Kernprozesse in BPMN als Grundlage für alle Folgeprojekte",
+        "Aufbau eines Projektportfolios mit einheitlichem Statusbericht für die Geschäftsführung",
+        "Steuerung von drei externen Dienstleistern inklusive Vertrags- und Abnahmemanagement",
+        "Konzeption und Durchführung von Anwenderschulungen an allen Standorten",
+        "Einführung eines Kennzahlensets, das den Projektfortschritt für Fachbereiche nachvollziehbar macht"
+      ]
+    },
+    {
+      "zeitraum": "03/2018 – 12/2020",
+      "rolle": "Prozessmanager",
+      "firma": "Beispiel Logistik AG, Bonn",
+      "untertitel": "Prozessaufnahme und -optimierung im Auftragsdurchlauf",
+      "bullets": [
+        "Aufnahme und Neuschnitt des Order-to-Cash-Prozesses, Durchlaufzeit um ein Drittel gesenkt",
+        "Einführung eines Ticketsystems für Fachanfragen, Rückfragequote halbiert",
+        "Moderation von Prozessworkshops mit Vertrieb, Lager und Buchhaltung",
+        "Aufbau einer Prozessdokumentation, die bis heute als Einarbeitungsgrundlage dient",
+        "Begleitung der internen Zertifizierung nach ISO 9001"
+      ]
+    },
+    {
+      "zeitraum": "08/2015 – 02/2018",
+      "rolle": "Teamleiter Kundenservice",
+      "firma": "Muster Service GmbH, Köln",
+      "untertitel": "Fachliche Führung von neun Personen",
+      "bullets": [
+        "Fachliche Führung eines Teams von neun Personen",
+        "Einführung eines Schichtmodells, Erreichbarkeit von 82 % auf 95 % gesteigert",
+        "Einarbeitung und Entwicklung neuer Teammitglieder"
+      ]
+    },
+    {
+      "zeitraum": "09/2012 – 07/2015",
+      "rolle": "Sachbearbeiter Auftragsabwicklung",
+      "firma": "Beispiel Handel GmbH, Bonn",
+      "untertitel": "Auftragsabwicklung und Reklamationsbearbeitung",
+      "bullets": [
+        "Auftragsabwicklung für Geschäftskunden",
+        "Bearbeitung von Reklamationen und Gutschriften"
+      ]
+    }
+  ],
+  "ausbildung": [
+    "09/2009 – 06/2012 · Ausbildung zum Kaufmann für Büromanagement, Beispiel Handel GmbH, Bonn",
+    "2017 · Weiterbildung Prozessmanagement, IHK Köln",
+    "2019 · Lean-Six-Sigma Green Belt",
+    "2021 · IPMA Level C (Certified Project Manager)",
+    "2023 · Professional Scrum Master I"
+  ],
+  "zertifikate": [
+    "IPMA Level C · Certified Project Manager",
+    "Lean Six Sigma Green Belt · Professional Scrum Master I",
+    "BPMN 2.0 · Requirements Engineering Foundation Level"
+  ]
+}
