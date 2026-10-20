@@ -24,7 +24,7 @@ stehen, sonst bricht der Bau ab.
 ### In fünf Minuten startklar
 
 ```bash
-git clone https://github.com/shoshiiiin/getyourjob.git
+git clone https://github.com/shoshiiiin/getyourjobFAST.git
 cd getyourjob
 ```
 
@@ -164,7 +164,7 @@ invents nothing. Every number in a cover letter must appear in
 ### Up and running in five minutes
 
 ```bash
-git clone https://github.com/shoshiiiin/getyourjob.git
+git clone https://github.com/shoshiiiin/getyourjobFAST.git
 cd getyourjob
 ```
 
